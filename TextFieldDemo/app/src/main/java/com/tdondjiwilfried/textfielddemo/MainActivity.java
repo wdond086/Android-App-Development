@@ -14,6 +14,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    /**
+     * Collects user's username and password and prints them in the log.
+     * @param view The view in question.
+     */
     public void logInFunction(View view) {
         EditText userName = findViewById(R.id.userName);
         EditText password = findViewById(R.id.password);
