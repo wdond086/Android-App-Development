@@ -14,6 +14,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    /**
+     * Collects text from the text field and prints in the log.
+     * @param view
+     */
     public void logFunction(View view) {
         EditText logInfo = findViewById(R.id.logInfo);
         Log.i("Info", logInfo.getText().toString());
